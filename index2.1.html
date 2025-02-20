@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Sistema de Reporte SMS</h3>
+          <p style="text-align: justify;">
+            El sistema de Reporte Obligatorio, es una herramienta desarrollada por la Coordinación de SMS de ESTELAR TECHNIK. Que permite Notificar las incidencias, incidentes y accidentes ocurridos en los servicios de mantenimiento.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img2/Estelar sin fondo.png" class="icon" alt="" />
+              <p><u>Taxonomía de Incidencias:</u></p>
+            </div>
+            <div class="information">
+              <img src="" class="icon" alt="" />
+              <ul>
+                <li>Fuego en las Oficinas.</li>
+                <li>Fuego en el Hangar.</li>
+                <li>Fuego en los servicios con aeronave.</li>
+                <li>Sismo y Terremoto.</li>
+                <li>Entre Otros.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+            <h3 class="title">Reporte Obligatorio de Incidencias/SMS</h3>
+            <div class="input-container">
+              <input type="date" name="date" class="input" />
+              <span>date</span>
+            </div>
+            <div class="input-container">
+              <input type="text" name="text" class="input" />
+              <label for="">Nombre</label>
+              <span>Nombre</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input id="OMA" type="radio" name="name" class="input" value="OMA MIQ" />
+              <label for="">LUGAR : OMA MIQ</label>
+            </div>
+            <div class="input-container">
+              <input id="OMA" type="radio" name="name" class="input" value="OMA STD"/>
+              <label for="">LUGAR : OMA STD</label>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Descripción del Evento:</label>
+            
+            </div>
+            <input type="submit" value="Send" class="btn" />
+            <input type="hidden" name="access_key" value="adf7be34-8d64-433e-96be-393badca38af">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app2.js"></script>
+  </body>
+</html>
