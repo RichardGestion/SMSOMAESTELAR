@@ -16,7 +16,7 @@ h2{
     font-size: 1.3em;
     text-align: center;
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 20%;
     transform: TranslateX(-5%) translateY(-5%);
 }
