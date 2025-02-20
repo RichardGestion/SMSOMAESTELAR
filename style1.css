@@ -31,15 +31,15 @@ body{
 #next, #prev{
     position: absolute;
     top: 40%;
-    color: #fff;
+    color: #f70a0a;
     background-color: transparent;
     border: none;
     font-size: xxx-large;
     font-family: monospace;
     font-weight: bold;
-    left: 400px;
+    left: 375px;
 }
 #next{
     left: unset;
-    right: 400px;
+    right: 360px;
 }
