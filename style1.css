@@ -37,9 +37,9 @@ body{
     font-size: xxx-large;
     font-family: monospace;
     font-weight: bold;
-    left: 375px;
+    left: 500px;
 }
 #next{
     left: unset;
-    right: 360px;
+    right: 500px;
 }
