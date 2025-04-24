@@ -70,7 +70,7 @@ const bd_juego = [
         op0:"Manual de la Organización de Mantenimiento.",
         op1:"Manual de Procedimientos de la OMA.",
         op2:"Manual de Mantenimiento.",
-        correcta:"1"
+        correcta:"0"
     },
     {
         id:9,
