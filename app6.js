@@ -78,7 +78,7 @@ const bd_juego = [
         op0:"10 Partes.",
         op1:"8 Partes",
         op2:"9 Partes.",
-        correcta:"2"
+        correcta:"0"
     },
     {
         id:10,
